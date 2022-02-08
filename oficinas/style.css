@@ -1,0 +1,175 @@
+body{
+    color: white;
+    background-color: #7e459b;
+    margin: 5%;
+}
+/* LAYOUT */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+/* FONTES */
+h3 {
+    font-size: 2.5rem;
+}
+h4 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BOTAO */
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: #7E459B;
+    background-color: white;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+/* UTILIDADES */
+.u-margin-bottom-peq {
+    margin-bottom: 2rem;
+}
+
+/* HEADER BANNER */
+.banner {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8UHSPNT3W-uTkgElof-RlD2RcDu9Qekq7Kg&usqp=CAU) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 25rem;
+    color: white;
+}
+
+.banner_titulo {
+    font-size: 5rem;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;  
+}
+
+.banner_subtitulo {
+    font-size: 2.3rem;
+    text-shadow: 0 0 0.2em black, 0 0 0.2em black, 0 0 0.2em black;
+}
+
+/* SEÇÃO SOBRE */
+.sobre_titulo {
+    font-size: 5rem;
+    color: white;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.sobre-descricao, .sobre-habilidades_titulo {
+    width: 50%;
+    display: inline-block;
+    line-height: 1.5;
+}
+.sobre-descricao_texto, .sobre-habilidades_titulo {
+    font-size: 2rem;
+}
+
+.sobre-habilidades {
+    width: 60%;
+    display: inline-block;
+    margin-left: 10rem;
+}
+
+.sobre-habilidades_lista {
+    padding-left: 3rem;
+    line-height: 3;
+    font-size: 1.6rem;
+}
+
+/* REDES SOCIAIS */
+.footer {
+    text-align: center;
+    display: inline-block;
+}
+
+.redes-sociais_link {
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: #7E459B;
+}
+
+.redes-sociais-img, .redes-sociais_titulo {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    display: inline-block;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+/* TABLET PAISAGEM */
+@media (max-width: 1024px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 4rem;
+    }
+}
+
+/* TABLET PAISAGEM / CELULAR */
+@media (max-width: 768px){
+    html {
+        font-size: 8px;
+    }
+    .container {
+        max-width: 960px;
+        padding: 0 10rem;
+    }
+    .sobre-descricao, .sobre-habilidades {
+        width: 100%;
+    }
+    .sobre-habilidades {
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    .redes-sociais_link {
+        width: 100%;
+        max-width: 200px;
+        padding: 2rem 0;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 485px) {
+    .container {
+        padding: 0 5rem;
+    }
+}
