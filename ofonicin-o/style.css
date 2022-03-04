@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#ffff,#ddc6c2, #FFE48D );
+}
+
+html{
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+}
+
+/* CABEÇALHO BANNER */
+
+.caixa-banner{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(https://www.google.com/search?q=windows&sxsrf=APq-WBsJ5PfT54oCXZEOB0kCNv3YF1ISIw:1646401522291&tbm=isch&source=iu&ictx=1&vet=1&fir=0ZN07uNqUfoW7M%252C0dsUUx4q8d4rfM%252C_%253BBL0cvmiSdEgF2M%252CHhNAPIaEIqz7BM%252C_%253BHlft3KcsyIidLM%252CHGowV04bETlyHM%252C_%253BiZSoktG8JBDVqM%252ChE2nvwjhlDW-JM%252C_&usg=AI4_-kSJdChRuJN1BcKEs4uwN_8s5C5tUg&sa=X&ved=2ahUKEwjq5JLPy6z2AhV-qJUCHdN3BGAQ_h16BAgnEAE#imgrc=Hlft3KcsyIidLM) center no-repeat;
+    background-size: cover;
+    color: #7e459b;
+}
+
+.banner-texto{
+    height: 24vh;
+    text-align: center;  
+}
+
+.banner-titulo{
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px #352113;
+}
+
+.banner-subtitulo{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    text-shadow: 1px 1px #352113;
+}
+
+.banner-btn{
+    font-size: 18px;
+    text-decoration: none;
+    color: #887943;
+    background: #ffff;
+    padding: 15px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.banner-btn:hover {
+	color: #FC7512;
+	text-decoration: underline;
+    transform: scale(1.2);
+}
+
+/* SOBRE MIM */
+
+.secao_sobre-mim{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 60px;
+}
+
+/* HABILIDADES*/ 
+
+.minhas-habilidades{
+    width: 50%;
+}
+
+.habilidades-titulo{
+    font-size: 25px;
+    color: #4F8357;
+}
+
+.habilidades-lista{
+    font-size: 18px;
+    color: #352113;
+    line-height: 1.8;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 500;
+  
+}
+.item{
+    position: relative;
+    margin: 10px 0px;
+    
+}
+
+.item::before{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 5px 15px;
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fenotas.com.br%2Fblog%2Fwp-content%2Fuploads%2F2021%2F02%2FGitHub.jpg&imgrefurl=https%3A%2F%2Fenotas.com.br%2Fblog%2Fgithub%2F&tbnid=3RruKZrcdBPc_M&vet=12ahUKEwi8ybmFyqz2AhXdA7kGHTeGCKMQMygAegUIARDZAQ..i&docid=1d2-FHhgGyoJgM&w=719&h=397&q=github&ved=2ahUKEwi8ybmFyqz2AhXdA7kGHTeGCKMQMygAegUIARDZAQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+
+/* RESUMO */
+
+.resumo_sobre-mim{
+    display: flex;
+}
+
+.resumo{
+    width: 75%;
+    margin-right: 60px;
+}
+
+.resumo-titulo{
+    font-size: 30px;
+    color: #4F8357;
+    margin-bottom: 20px ;
+}
+
+.resumo-principal{
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #352113;
+}
+
+.resumo-secundario{
+    font-size: 18px;
+    font-weight: 550;
+    text-align: justify;
+    margin-bottom: 15px;
+    color:#352113;
+}
+
+.resumo-terceiro{
+    font-size: 18px;
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #352113;
+}
+
+ /* BOTAO*/
+
+ .resumo-btn{
+    font-size: 18px;
+    padding: 15px;
+    background: #887943;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #E1F7D7;
+}
+ 
+.caixa-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.caixa-btn:hover {
+    color: #C63C22;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+strong{
+    font-style: italic;
+}
+
+/* SOBRE MIM PARTE DOIS*/
+.conteudo {
+    width: 90%;
+    margin-bottom: 50px;
+        margin-left: 60px;
+  }
+  
+  .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .conteudo-principal-escrito-titulo {
+    font-size: 30px;
+    color: #7e459b;
+    margin-bottom: 15px ;
+  }
+  
+  .conteudo-principal-escrito-subtitulo {
+    font-size: 20px;
+    font-weight: 550;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #352113;
+  }
+  
+  .conteudo-principal-escrito-botao {
+    font-size: 18px;
+    padding: 15px;
+    background: #887943;
+    color: #7e459b;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #E1F7D7;
+  }
+  
+  .conteudo-principal-escrito-botao:hover {
+    background-color: #C63C22;
+  }
+  
+  .conteudo-principal-imagem {
+      width: 50%;
+    height: 300px;
+    
+  }
+  
+  .conteudo-principal-imagem1 {
+      height: 50px;
+      display: flex;
+      flex-direction: column ;
+    }
+
+/* REDES SOCIAIS */ 
+
+.container-redes-sociais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.caixa-rede-social{ 
+    color: #ffff;
+    background: #887943;
+    height: 140px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+} 
+
+.caixa-rede-social:hover {
+	border-color: #DCAF49;
+    transform: scale(1.2);
+    color: #C63C22;
+    text-decoration: underline;
+}
+
+.imagem-rede-social{
+    height: 50px;
+}
+
+.titulo-rede-social{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-rede-social{
+    font-size: 14px;
+}
+
+.link-rede-social{
+    text-decoration: none;
+    color: #ffff; 
+}
+
+/*RODAPE*/
+.rodape{
+    text-align: center;
+    padding: 20px;
+
+}
+
+.nome-rodape{
+    color: #7e459b;
+    font-size: 40px;
+}
+
+@media (max-width: 710px){
+    .secao_sobre-mim{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+.resumo{
+    width: 80%;
+    text-align: justify;
+}
+.minhas-habilidades{
+    width: 80%;
+}
+.habilidades-titulo{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.container-redes-sociais{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+}
+.imagem-rede-social{
+margin-top: 40px;
+}
+
+}
